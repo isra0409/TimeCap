@@ -5,6 +5,7 @@ import Nosotros from "./components/nosotros/Nosotros"
 import ContactForm from "./components/contactForm/ContactForm"
 import ThreeColumnBlock from "./components/threeColumnBlock/ThreeColumnBlock"
 import Servicios from "./components/servicios/Servicios"
+import Timeline from "./components/timeline/Timeline"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <>
     <TimeCapLanding />
     <Nosotros />
+    <Timeline />
     <Galeria />
     <Servicios />
     <ThreeColumnBlock />

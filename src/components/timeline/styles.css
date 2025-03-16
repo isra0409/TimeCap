@@ -1,0 +1,63 @@
+/* Contenedor principal */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Contenedor de cada hito */
+  .timeline-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px; /* Espacio entre los hitos */
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Contenedor de la fecha */
+  .timeline-date-container {
+    width: 20%; /* 20% para la fecha */
+  }
+  
+  .timeline-date {
+    font-weight: bold;
+    color: #df4759;  /* Color de la fecha */
+  }
+  
+  /* Contenedor del contenido (función desempeñada) */
+  .timeline-content-container {
+    width: 80%; /* 80% para el contenido */
+    padding-left: 40px;
+  }
+  
+  /* Título de la función desempeñada */
+  .timeline-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: whitesmoke; /* Color del título */
+  }
+  
+  /* Descripción del cargo */
+  .timeline-description {
+    font-size: 1rem;
+    color: #555; /* Color del texto */
+    padding: 1rem;
+  }
+  
+  /* Línea entre los puntos de la línea de tiempo (opcional) */
+  .timeline-item::before {
+    content: "";
+    position: absolute;
+    left: 25%;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #df4759;
+    transform: translateX(-50%);
+  }
+  
