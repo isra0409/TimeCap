@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="col-md-4 mb-3">
             <h5 className="text-danger">Contacto</h5>
             <p><FaMapMarkerAlt className="text-danger" /> Ubicación: 
-            Los Jazmines 702, Salta. (3 Cerritos)</p>
+            Los Jazmines 702, Salta capital.</p>
             <p><FaPhone className="text-danger" /> Teléfono: +54 387 220 0578</p>
           </div>
 
@@ -22,6 +22,7 @@ const Footer = () => {
             <h5 className="text-danger">Síguenos</h5>
             <div>
               <a href="#" className="text-light me-3"><FaInstagram size={24} /></a>
+              <a href="#" className="text-light me-3"><FaFacebook size={24} /></a>
               <a href="#" className="text-light"><FaFacebook size={24} /></a>
             </div>
           </div>

@@ -47,7 +47,7 @@ const Galeria = () => {
 
   return (
     <div className="container90 container  text-center">
-      <h2 className="mb-4 text-danger">Somos TimeCap</h2>
+      <h2 className="mb-4 fw-bold text-danger">Somos TimeCap</h2>
       <Slider {...settings}>
         {images.map((img, index) => (
           <div key={index} className="px-2">

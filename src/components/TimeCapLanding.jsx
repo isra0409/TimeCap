@@ -53,7 +53,7 @@ const TimeCapLanding = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#services">
-                  Servicios
+                  Actividades
                 </a>
               </li>
               <li className="nav-item">
@@ -100,9 +100,9 @@ const TimeCapLanding = () => {
             className="hero-text"
           >
             <h1 className="display-4 fw-bold">Somos TimeCap Training</h1>
-            <p className="lead">Supera tus límites. Entrena con propósito.</p>
+            <p className="lead">Supera tus límites. Entrena con nosotros.</p>
             <a href="#contacto" className="btn btn-secondary btn-lg">
-              Únete Ahora
+              Quiero info
             </a>
           </motion.div>
 

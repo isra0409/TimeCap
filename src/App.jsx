@@ -4,6 +4,7 @@ import Footer from "./components/footer/Footer"
 import Nosotros from "./components/nosotros/Nosotros"
 import ContactForm from "./components/contactForm/ContactForm"
 import ThreeColumnBlock from "./components/threeColumnBlock/ThreeColumnBlock"
+import Servicios from "./components/servicios/Servicios"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <TimeCapLanding />
     <Nosotros />
     <Galeria />
+    <Servicios />
     <ThreeColumnBlock />
     <ContactForm />
     <Footer />
