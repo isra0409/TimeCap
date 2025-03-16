@@ -6,7 +6,7 @@ const ContactForm = () => {
   return (
     
     <div className="container mt-5">
-      <h2 className="text-center text-danger fw-bold mb-4">Contáctanos</h2>
+      <h2 className="text-center text-danger fw-bold mb-4">Dejá tu mensaje</h2>
       <div className="row justify-content-center">
         <div className="col-md-6">
           <form className="bg-dark text-light p-4 rounded shadow">

@@ -44,7 +44,7 @@ const Timeline = () => {
 
   return (
           <section id="trayectoria" className="container ">
-        <h2 className="text-center text-danger mb-4">Trayectoria</h2>
+        <h2 className="text-center fw-bold text-danger mb-4">Trayectoria</h2>
         <div className="timeline">
           {timelineData.map((item, index) => (
             <div

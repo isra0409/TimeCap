@@ -6,6 +6,7 @@ import ContactForm from "./components/contactForm/ContactForm"
 import ThreeColumnBlock from "./components/threeColumnBlock/ThreeColumnBlock"
 import Servicios from "./components/servicios/Servicios"
 import Timeline from "./components/timeline/Timeline"
+import "./styles.css"
 
 function App() {
 
@@ -19,6 +20,9 @@ function App() {
     <ThreeColumnBlock />
     <ContactForm />
     <Footer />
+    <div className="divpie">
+      <p className="ppie">025 todos los derechos reservados @fastfrontwebs</p>
+    </div>
     </>
   )
 }
