@@ -21,7 +21,7 @@ function App() {
     <ContactForm />
     <Footer />
     <div className="divpie">
-      <p className="ppie">025 todos los derechos reservados @fastfrontwebs</p>
+      <p className="ppie">025 Tecnologies by isra :3 @fastfrontwebs</p>
     </div>
     </>
   )

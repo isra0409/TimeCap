@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footcontainer row text-center text-md-start">
 
           {/* Sección Contacto */}
-          <div className="col-md-4 mb-3">
+          <div className="col-md-4 mb-3" id="contact">
             <h5 className="text-danger">Contacto</h5>
             <p><FaMapMarkerAlt className="text-danger" /> Ubicación: 
             Los Jazmines 702, Salta capital.</p>
@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="col-md-4 mb-3 text-md-end">
             <h5 className="text-danger">Redes</h5>
             <div>
-              <a href="#" className="text-light text-center"><FaInstagram size={24} /></a>
+              <a href="https://www.instagram.com/timecap.training/" className="text-light text-center"><FaInstagram size={24} /></a>
               {/* <a href="#" className="text-light me-3"><FaFacebook size={24} /></a> */}
             </div>
           </div>

@@ -11,7 +11,7 @@ export default function Servicios() {
     ];
   
     return (
-      <section className="container py-5 text-center">
+      <section className="container py-5 text-center" id="services">
         <h2 className="text-danger fw-bold mb-4">Nuestras actividades</h2>
         <div className="row g-4">
           {servicios.map((servicio, index) => (

@@ -23,35 +23,19 @@ const Nosotros = () => {
       </section>
 
       {/* Sección de Coaches */}
-      <section className="row text-center">
+      <section className="row justify-content-center text-center">
         <div className="col-md-6 mb-4">
           <img
-            src={imgTomi} // Sustituir por la imagen del primer coach
+            src={imgTomi}
             alt="Coach 1"
             className="img-fluid mb-3 img-coach"
             style={{ width: "300px", height: "300px" }}
           />
+
           <h5>
             <strong>Tomás Villa Iturrieta</strong>
           </h5>
-          <p className="p-coach">
-            Empresario fitness, profesor de Educación Física, atleta de CrossFit
-            y líder de nuestra comunidad. Mi enfoque es motivar a los demás a
-            superar sus límites y llevar una vida más saludable y activa
-            entrenando.
-          </p>
-        </div>
 
-        <div className="col-md-6 mb-4">
-          <img
-            src={imgAgus} // Sustituir por la imagen del segundo coach
-            alt="Coach 2"
-            className="img-fluid mb-3 img-coach"
-            style={{ width: "300px", height: "300px" }}
-          />
-          <h5>
-            <strong>Nombre del Coach 2</strong>
-          </h5>
           <p className="p-coach">
             Empresario fitness, profesor de Educación Física, atleta de CrossFit
             y líder de nuestra comunidad. Mi enfoque es motivar a los demás a

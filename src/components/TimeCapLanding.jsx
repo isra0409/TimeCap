@@ -23,7 +23,7 @@ const TimeCapLanding = () => {
     <>
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div className="container">
+        <div className="container" >
           <a className="navbar-brand" href="/">
             TimeCap Training
           </a>
@@ -67,6 +67,7 @@ const TimeCapLanding = () => {
       </nav>
 
       <header
+        id="about"
         className="hero-section position-relative text-white d-flex align-items-center"
         style={{
           position: "relative",
@@ -101,7 +102,7 @@ const TimeCapLanding = () => {
           >
             <h1 className="display-4 fw-bold">Somos TimeCap Training</h1>
             <p className="lead">Supera tus límites. Entrena con nosotros.</p>
-            <a href="#contacto" className="btn btn-secondary btn-lg">
+            <a href="https://wa.me/5493513456407" className="btn btn-secondary btn-lg">
               Quiero info
             </a>
           </motion.div>

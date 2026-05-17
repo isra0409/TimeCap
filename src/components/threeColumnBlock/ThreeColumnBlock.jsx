@@ -14,7 +14,7 @@ const ThreeColumnBlock = () => {
 
         <div className="col-md-4 mb-4">
           <h2 className="txtp text-danger">Tenes consultas apartes? Escribinos.</h2>
-          <p className="txtp text-light">Podes contactarte con nosotros via e-mail, via wpp o rellenando el siguiente formulario y nos pondremos en contacto con vos a la brevedad.</p>
+          <p className="txtp text-light">Podes contactarte con nosotros, via wpp y nos pondremos en contacto con vos a la brevedad.</p>
         </div>
 
         <div className="txtp col-md-4 mb-4">

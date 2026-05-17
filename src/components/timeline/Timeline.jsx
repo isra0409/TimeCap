@@ -8,7 +8,7 @@ const Timeline = () => {
           date: "2024 - Hoy",
           title: "Fundador de TimeCap Training",
           description:
-            "Con el apoyo de mi familia y mi compañera Agus, creamos TimeCap Training, mi propio centro de entrenamiento especializado en fuerza y rendimiento deportivo.",
+            "Con el apoyo de mi familia creamos TimeCap Training, mi propio centro de entrenamiento especializado en fuerza y rendimiento deportivo.",
         },
         {
           date: "2023",

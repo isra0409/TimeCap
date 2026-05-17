@@ -1,38 +1,39 @@
 import React from "react";
-import { FaUser, FaEnvelope, FaCommentDots } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const ContactForm = () => {
   return (
-    
     <div className="container mt-5">
-      <h2 className="text-center text-danger fw-bold mb-4">Dejá tu mensaje</h2>
       <div className="row justify-content-center">
-        <div className="col-md-6">
-          <form className="bg-dark text-light p-4 rounded shadow">
-            {/* Nombre */}
-            <div className="mb-3">
-              <label className="form-label"><FaUser className="text-danger me-2" />Nombre</label>
-              <input type="text" className="form-control" placeholder="Tu nombre" required />
-            </div>
+        <div className="col-12 col-md-8 col-lg-6">
+          
+          <div className="bg-dark text-light p-5 rounded shadow text-center">
+            
+            <FaWhatsapp
+              size={70}
+              className="text-success mb-4"
+            />
 
-            {/* Email */}
-            <div className="mb-3">
-              <label className="form-label"><FaEnvelope className="text-danger me-2" />Email</label>
-              <input type="email" className="form-control" placeholder="tuemail@example.com" required />
-            </div>
+            <h2 className="fw-bold mb-3 text-danger">
+              ¿Querés comunicarte con nosotros?
+            </h2>
 
-            {/* Mensaje */}
-            <div className="mb-3">
-              <label className="form-label"><FaCommentDots className="text-danger me-2" />Mensaje</label>
-              <textarea className="form-control" rows="4" placeholder="Escribe tu mensaje" required></textarea>
-            </div>
+            <p className="mb-4">
+              Escribinos directamente por WhatsApp y te respondemos lo antes posible.
+            </p>
 
-            {/* Botón de envío */}
-            <div className="text-center">
-              <button type="submit" className="btn btn-danger w-100">Enviar</button>
-            </div>
-          </form>
+            <a
+              href="https://wa.me/5493513456407"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-success btn-lg w-100 fw-bold"
+            >
+              Hablar por WhatsApp
+            </a>
+
+          </div>
+
         </div>
       </div>
     </div>
